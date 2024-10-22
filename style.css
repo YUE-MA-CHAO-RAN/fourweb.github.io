@@ -1,0 +1,48 @@
+body {
+  background: #98c379;
+  display: flex;
+  justify-content: center;
+  }
+
+#alice-container {
+  width: 80vh;
+  display: grid;
+  place-items: center;
+  grid-template-areas:
+    "a1 a4 . a7"
+    "a2 a5 . a8"
+    "a3 a6 . a9";
+}
+#alice1 {
+  grid-area: a1;
+}
+
+#alice2 {
+  grid-area: a2;
+}
+
+#alice3 {
+  grid-area: a3;
+}
+#alice4 {
+    grid-area: a4;
+}
+
+#alice5 {
+    grid-area: a5;
+}
+
+#alice6 {
+    grid-area: a6;
+}
+#alice7 {
+    grid-area: a7;
+}
+
+#alice8 {
+    grid-area: a8;
+}
+
+#alice9 {
+    grid-area: a9;
+}
